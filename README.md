@@ -57,6 +57,7 @@ chef_server_url = 'https://rhel7.localdomain/organizations/mattorganization'
 # Gotchyas
 
 - Make sure to run `knife ssl fetch` to generate SSL certs
+- If you change to hostname or IP address of your machine, make sure to run `chef-server-ctl reconfigure`
 
 
 
