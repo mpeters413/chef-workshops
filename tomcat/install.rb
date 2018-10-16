@@ -1,10 +1,11 @@
+#install javaSDK
+yum_package `java-1.7.0-openjdk`
 
-execute 'install java' do
- command 'sudo yum install java-1.7.0-openjdk'
- action :run
-end
+#execute 'install java' do
+ #command 'sudo yum install java-1.7.0-openjdk'
+ #action :run
+#end
 
-#package `java-1.7.0-openjdk`
 
 #sudo groupadd tomcat
 group 'tomcat'
