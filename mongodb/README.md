@@ -15,7 +15,7 @@ Place the `mongodb-org-4.0.repo` in `/etc/yum.repos.d/mongodb-org-4.0.repo`
 
 # Install Mongodb
 
-- run `chef-client --local-mode --runlist 'recipe[mongodb]'
+- run ```chef-client --local-mode --runlist 'recipe[mongodb]```
 
 
 
