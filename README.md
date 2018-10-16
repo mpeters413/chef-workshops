@@ -41,11 +41,22 @@ Run the following commands to install chef
 -  `chef-server-ctl install chef-manage`
 -  `chef-server-ctl reconfigure`
 -  `chef-manage-ctl reconfigure`
+-  ` knife confgiure`
+
+Your knife config file should look something like this:
+
+```[default]
+client_name     = 'vagrant'
+client_key      = '/root/.chef/vagrant.pem'
+chef_server_url = 'https://rhel7.localdomain/organizations/mattorganization'
+```
 
 - Create a chef repo in `/home/vagrant/` by running `sudo mkdir /home/vagrant/chef-repo`
 - Create a cookbook repo in `/home/vagrant/chef-repo` by running `sudo mkdir /home/vagrant/chef-repo/cookbooks`
 
+# Gotchyas
 
+- Make sure to run `knife ssl fetch` to generate SSL certs
 
 
 
