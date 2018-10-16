@@ -27,7 +27,8 @@ I.E
 ~                           
 
 ```
-- Run **Vagrant up**
+- Run `Vagrant up`
+- Run `vagrant ssh`
 
 
 # Install Chef
