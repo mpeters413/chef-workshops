@@ -42,5 +42,10 @@ Run the following commands to install chef
 -  `chef-server-ctl reconfigure`
 -  `chef-manage-ctl reconfigure`
 
+- Create a chef repo in `/home/vagrant/` by running `sudo mkdir /home/vagrant/chef-repo`
+- Create a cookbook repo in `/home/vagrant/chef-repo` by running `sudo mkdir /home/vagrant/chef-repo/cookbooks`
+
+
+
 
 
